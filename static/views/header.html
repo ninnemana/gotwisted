@@ -1,0 +1,18 @@
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top navbar-inverse" ng-controler="HeaderController">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button data-toggle="collapse" type="button" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="/" title="Twisted Rhythm " class="navbar-brand"><span><strong>Twisted</strong><span>Rhythm</span></span></a>
+		</div>
+		<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse pull-right">
+			<ul class="nav navbar-nav">
+				<li ng-class="getClass('/')"><a href="#!/" title="Home">Home</a></li>
+				<li class="divider"></li>
+				<li ng-class="getClass('/events')"><a href="#!/events" title="Events">Upcoming Events</a></li>
+				<li class="divider"></li>
+				<li ng-class="getClass('/bio')"><a href="#!/bio" title="The Band">Band Bio</a></li>
+				<li class="divider"></li>
+				<li ng-class="getClass('/news')"><a href="#!/news" title="News">News</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>

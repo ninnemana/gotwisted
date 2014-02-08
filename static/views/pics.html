@@ -1,0 +1,27 @@
+<style>
+	body{
+		background: url('/static/img/band/charlie.jpg') no-repeat top left fixed #000;
+		-webkit-background-size: 31% auto;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: 31% auto;
+		background-position-y: 100%;
+		background-position-x: 100%;
+	}
+</style>
+
+<section data-ng-controller="PhotoController">
+	<div class="container pics-page">
+		<div class="background"></div>
+		<div class="body">
+			<h1>
+				<strong>Twisted</strong>Pics
+			</h1>
+
+			<div ng-repeat="img in photos">
+				<img ng-src="{{img.images[0].source}}" alt="">
+			</div>
+
+		</div>
+	</div>
+</section>
