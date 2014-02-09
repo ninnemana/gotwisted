@@ -28,6 +28,22 @@ a{
 	clear: both;
 }
 
+.logo-banner{
+	img{
+		display: block;
+		margin:auto;
+		width:180px;
+	}
+	// background: url('/static/img/band/logo.png') no-repeat center center fixed;
+	// -webkit-background-size: cover;
+	// -moz-background-size: cover;
+	// -o-background-size: cover;
+	// background-size: cover;
+	// width: 100%;
+	// height: 400px;
+	// clear: both;
+}
+
 $min-height: 650px;
 .page-content{
 	min-height: $min-height;
@@ -114,6 +130,38 @@ footer{
 			&:hover{
 				text-shadow: 0px 1px 2px #999;
 			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+	.page-content{
+		min-height: 300px;
+
+		.container{
+			width:100%;
+			.background{
+				width:100%;
+			}
+			.body{
+				width: 100%;
+			}
+		}
+	}
+
+	footer{
+		background:black;
+		position:fixed;
+		bottom:0;
+		width:100%;
+		color: #404040;
+		margin:auto;
+		padding: 15px;
+		height: 50px;
+		z-index:100;
+		.contact{
+			width:100%;
+			text-align: center
 		}
 	}
 }

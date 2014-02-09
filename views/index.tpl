@@ -28,6 +28,9 @@
       <div class="content">
         <div class="contact"><span>Contact:</span><a href="#/contact" title="Kayla Feichter">Kayla Feichter</a><span>715.239.1229</span><a href="https://facebook.com/twistedrhythmrocks">Facebook</a><a href="https://youtube.com/user/TwistedRhythmRocks">YouTube</a></div>
       </div>
+
+      <script src="/static/lib/jquery/jquery.min.js"></script>
+      <script src="/static/lib/bootstrap/dist/js/bootstrap.min.js"></script>
       <script type="text/javascript" src="/static/lib/angular/angular.js"></script>
       <script type="text/javascript" src="/static/lib/angular-cookies/angular-cookies.js"></script>
       <script type="text/javascript" src="/static/lib/angular-resource/angular-resource.js"></script>
